@@ -1,5 +1,5 @@
 public class PS {
-    public static void main(String[] args) {
-
+    public void doThis(){
+        System.out.println("I am here");
     }
 }

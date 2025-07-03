@@ -1,5 +1,8 @@
-public class PS1 extends PS{
-    public static void main(String[] args) {
+import org.testng.annotations.Test;
 
+public class PS1 extends PS{
+    @Test
+    public void testRun(){
+        doThis();
     }
 }
